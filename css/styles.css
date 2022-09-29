@@ -19,6 +19,7 @@ body {
   background-color: var(--wight-color);
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .list {
   list-style: none;
@@ -62,7 +63,6 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -76,7 +76,6 @@ body {
 .contact-link {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -106,7 +105,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* BUTTON */
@@ -115,6 +113,7 @@ body {
   font-family: inherit;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .button.primary {
   color: var(--wight-color);
@@ -133,7 +132,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
 }
 .button.secondary.current {
   color: var(--wight-color);
@@ -148,15 +146,11 @@ body {
 
 .feature-subtitle {
   color: var(--title-text-color);
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .feature-text {
-  font-size: 14px;
   line-height: 1.71px;
-  letter-spacing: 0.03em;
 }
 
 /* OUR TEAM */
@@ -166,12 +160,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .position {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .team {
   background-color: var(--secondary-backgraund-color);
@@ -190,16 +182,12 @@ body {
 }
 .map {
   color: var(--wight-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 .contact {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
   line-height: 1.71px;
 }
-.map:hover,
-.map:focus,
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
